@@ -3,6 +3,7 @@ var fs = require('fs');
 var util = require('util');
 var toMarkdown = require('to-markdown');
 var http = require('http');
+var request = require('request');
 
 processExport();
 
